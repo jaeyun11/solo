@@ -1,0 +1,151 @@
+@font-face{
+	font-family:'cat';
+	src: url("../font/HoonWhitecatR.ttf");
+}
+
+
+*{
+	padding:0px;
+	margin:0px;
+	font-family:cat;
+	
+}
+
+body{
+	background-image:url('../image/back1.png');
+	background-size:100%;
+	background-repeat: no-repeat;
+	height:auto;
+}
+
+nav{
+	margin:10px;
+}
+
+nav ul{
+	list-style:none;
+	text-align:center;
+	padding:30px 0;
+	font-size:24pt;
+	
+	
+}
+
+nav ul li{
+	display: inline;
+	color:#469840;
+	letter-spacing:10px;
+	
+}
+
+nav ul li a {
+	height: 100%;
+	width: 100%;
+	padding:20px 100px;
+	color:black;
+	
+}
+
+nav ul li a:hover{
+   color:#E3C4FF;
+}
+
+footer{
+	clear: both;
+	text-align: center;
+	font-size:24pt;
+}
+
+a:link{
+	text-decoration:none;
+	color:black;
+}
+
+div#sss{
+	float:right;
+	margin:10px;
+	font-size:18pt;
+}
+
+.btn{
+	background-image:url('../image/ball.png');
+	background-size:100% 150%;
+	background-position:center;
+	border-radius : 13px;
+	width:100px;
+	height: 30px;
+	font-weight:bold;
+	font-size:22px;
+}
+
+#cell{
+	width:800px;
+	background-image:url(../image/orange.jpg);
+	background-size:100% 100%;
+	background-repeat:repeat-x;
+	border-radius:9px;
+	font-weight:bold;
+	text-align: center;
+	font-size:18pt;
+}
+
+#cell1{
+	width:800px;
+	background-image:url(../image/orange.jpg);
+	background-size:100% 100%;
+	background-repeat:repeat-x;
+	opacity:0.9;
+	border-radius:9px;
+	font-weight:bold;
+	text-align: center;
+	font-size:18pt;
+}
+
+div#tab{
+	width:1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.min{
+	height:20px;
+	border:1px double black;
+}
+
+td#con{
+	height:350px;
+}
+
+	
+div#downbt{
+	margin-top: 30px;
+}
+
+fieldset{
+	width:800px;
+	background-image:url(../image/orange.jpg);
+	background-size:100% 100%;
+	background-repeat:repeat-x;
+	opacity:0.8;
+}
+
+textarea{
+	border-radius: 11px;
+}
+
+input#ps{
+	margin-top:10px;
+	margin-left:20px;
+}
+
+table#re{
+	width:800px;
+	border:none;
+	font-size:20px;
+}
+
+h3{
+	margin-top:20px;
+	margin-left:20px;
+}
+

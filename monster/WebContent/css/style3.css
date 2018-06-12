@@ -1,0 +1,126 @@
+@font-face{
+	font-family:cat;
+	src:url("../font/HoonWhitecatR.ttf");
+}
+
+*{
+	padding:0px;
+	margin:0px;	
+	font-family:cat;
+}
+
+body{
+	background-image:url('../image/back1.png');
+	background-size:100%;
+	background-repeat: no-repeat;
+	height:auto;
+}
+
+nav{
+	margin:10px;
+}
+
+nav ul{
+	list-style:none;
+	text-align:center;
+	border-top:0px solid;
+	border-bottom:0px solid; 
+	padding:30px 0;
+	font-size:24pt;
+	
+}
+
+nav ul li{
+	display: inline;
+	color:#469840;
+	letter-spacing:10px;
+}
+
+nav ul li a {
+	height: 100%;
+	width: 100%;
+	padding:20px 100px;
+	color:black;
+	
+}
+
+nav ul li a:hover{
+	color:#E3C4FF;
+}
+
+footer{
+	clear: both;
+	text-align:center;
+	font-size:24pt;
+}
+
+div#sss{
+	float:right;
+	margin:10px;
+	font-size:18pt;
+}
+
+div#aaa{
+	width:30%;
+	font-size:19pt;
+	padding:0px 650px;
+}
+
+fieldset{
+	background-image:url(../image/gra1.png);
+	background-size:100% 100%;
+	opacity:0.8;
+	height:50%;
+}
+
+input#ddd{
+	font-size:20pt;
+}
+a:link{
+	text-decoration:none;
+}
+
+.btn{
+	background-image:url('../image/ball.png');
+	background-size:100% 150%;
+	background-position:center;
+	border-radius : 13px;
+	width:100px;
+	height: 30px;
+	font-weight:bold;
+	font-size:22px;
+}
+
+div#dual_x_div{
+	width:800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#left ul{
+	margin-top:20px;
+	float:left;
+	width:300px;
+	list-style:none;
+	text-align:center;
+	font-size:24pt;
+}
+
+aside ul li {
+	line-height:55px;
+}
+
+aside ul li a{
+	color:black;
+}
+
+aside ul li a:hover{
+	color:#E3C4FF;
+}
+
+div#all{
+	width: 1500px;
+	margin-left: 250px;
+	margin-right: 300px;
+	margin-top: 50px;
+}

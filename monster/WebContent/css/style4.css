@@ -1,0 +1,203 @@
+@font-face{
+	font-family:'cat';
+	src: url("../font/HoonWhitecatR.ttf");
+}
+
+
+*{
+	padding:0px;
+	margin:0px;
+	font-family:cat;
+	
+}
+
+body{
+	background-image:url('../image/back1.png');
+	background-size:100%;
+	background-repeat: no-repeat;
+	height:auto;
+}
+
+nav{
+	margin:10px;
+}
+
+nav ul{
+	list-style:none;
+	text-align:center;
+	padding:30px 0;
+	font-size:24pt;
+	
+	
+}
+
+nav ul li{
+	display: inline;
+	color:#469840;
+	letter-spacing:10px;
+	
+}
+
+nav ul li a {
+	height: 100%;
+	width: 100%;
+	padding:20px 100px;
+	color:black;
+	
+}
+
+nav ul li a:hover{
+   color:#E3C4FF;
+}
+
+#left ul{
+	margin-top:20px;
+	float:left;
+	width:300px;
+	list-style:none;
+	text-align:center;
+	font-size:24pt;
+}
+
+footer{
+	clear: both;
+	text-align: center;
+	font-size:24pt;
+}
+
+a:link{
+	text-decoration:none;
+	color:black;
+}
+
+div#sss{
+	float:right;
+	margin:10px;
+	font-size:18pt;
+}
+
+aside ul li {
+	line-height:55px;
+}
+
+aside ul li a{
+	color:black;
+}
+
+aside ul li a:hover{
+	color:#E3C4FF;
+}
+
+.btn{
+	background-image:url('../image/ball.png');
+	background-size:100% 150%;
+	background-position:center;
+	border-radius : 13px;
+	width:100px;
+	height: 30px;
+	font-weight:bold;
+	font-size:22px;
+}
+
+.qq{
+	background-image:url('../image/ball.png');
+	background-size:100% 150%;
+	background-position:center;
+	border-radius : 13px;
+	width:100px;
+	height: 30px;
+	font-weight:bold;
+	font-size:22px;
+	float:right;
+}
+table{
+	magin:0;
+	padding:0;
+	width:850px;
+}
+
+table th{
+	background-image:url('../image/title.jpg');
+	background-repeat:repeat-x;
+	height:35px;
+	color:white;
+}
+
+table td{
+	text-align: center;
+	height:30px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999
+}
+
+table th#aa{
+	width:50px;
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+}
+
+table th#bb{
+	width:500px;
+}
+
+table th#cc{
+	width:50px;
+}
+
+table th#dd{
+	width:50px;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+}
+
+
+article {
+	display: table-cell;
+	width: 850px;
+}
+
+div#search{
+	width: 300px;
+	position: relative;
+	float: right;
+	text-align: right;
+}
+
+div#all{
+	width: 1200px;
+	margin-left: 250px;
+	margin-right: 300px;
+	margin-top: 50px;
+}
+
+tr:hover {
+	background-image:url('../image/pica.png');
+	opacity:0.7;
+}
+
+div#page{
+	clear: both;
+	text-align: center;
+	width:350px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+input#text{
+	border-radius: 7px;
+	height:20px;
+	width:180px;
+}
+
+div#page a{
+	font-size:20px;
+	color:black;
+}
+
+div#list{
+	width:600px;
+	margin-left: auto;
+	margin-right: auto;
+}

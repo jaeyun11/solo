@@ -1,0 +1,112 @@
+@font-face{
+	font-family:'cat';
+	src: url("../font/HoonWhitecatR.ttf");
+}
+
+
+*{
+	padding:0px;
+	margin:0px;
+	font-family:cat;
+	
+}
+
+body{
+	background-image:url('../image/back1.png');
+	background-size:100%;
+	background-repeat: no-repeat;
+	height:auto;
+}
+
+nav{
+	margin:10px;
+}
+
+nav ul{
+	list-style:none;
+	text-align:center;
+	padding:30px 0;
+	font-size:24pt;
+	
+	
+}
+
+nav ul li{
+	display: inline;
+	color:#469840;
+	letter-spacing:10px;
+	
+}
+
+nav ul li a {
+	height: 100%;
+	width: 100%;
+	padding:20px 100px;
+	color:black;
+	
+}
+
+nav ul li a:hover{
+   color:#E3C4FF;
+}
+
+footer{
+	clear: both;
+	text-align: center;
+	font-size:24pt;
+}
+
+a:link{
+	text-decoration:none;
+	color:black;
+}
+
+div#sss{
+	float:right;
+	margin:10px;
+	font-size:18pt;
+}
+
+.btn{
+	background-image:url('../image/ball.png');
+	background-size:100% 150%;
+	background-position:center;
+	border-radius : 13px;
+	width:100px;
+	height: 30px;
+	font-weight:bold;
+	font-size:22px;
+}
+
+div#wt{
+	width:900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table{
+	width:800px;
+}
+
+table th{
+	background-image:url('../image/title.jpg');
+	background-size:100% 100%;
+	height:35px;
+	color:white;
+}
+
+table td{
+	text-align: center;
+	height:30px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999
+}
+
+textarea{
+	border-radius: 13px;
+}
+
+div#clear{
+	height: 50px;
+}
